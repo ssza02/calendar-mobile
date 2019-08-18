@@ -1,0 +1,281 @@
+/*顶部标题*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+:focus {
+  outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+    display:block;
+}
+
+nav ul,li {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration:none;
+}
+a{ -webkit-tap-highlight-color:rgba(255,0,0,0);}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+w
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+    -webkit-appearance: none;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.top_toast{
+  width: 100%;
+  height: 0.2rem;
+  background: black;
+}
+
+.top_title_box{
+	padding: 0 0.3rem;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	border: 1px solid #f0f0f0;
+	font-size: 0;
+	text-align: center;
+	margin: 0 -2px;
+	position: relative;
+	background-color: #f9f9f9;
+   .top-back-icon{
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 0.44rem;
+    width: 0.44rem;
+    line-height: 0.44rem;
+  }
+  .top_title{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #333;
+  }
+   .top_register_btn{
+    font-size: 13px;
+    color: #333;
+    float: right;
+  }
+}
+
+/*顶部标题*/
+
+/*小标题*/
+.title_base{
+	height: 0.9rem;
+	line-height: 0.9rem;
+	padding: 0 0.3rem;
+	font-size: 15px;
+	color: #333333;
+	margin-top: 0.2rem;
+	background-color: #fff;
+}
+.title-icon{
+	background-color:#2399eb;
+	width: 0.1rem;
+	height: 13px;
+	margin-right: 0.2rem;
+	display: inline-block;
+}
+.title,.banner,.exper_type_bar{
+	background-color: #fff;
+}
+/*小标题*/
+
+
+/*底部导航栏*/
+html,body {
+  margin: 0;
+  padding:0;
+/*  height: 100%;*/
+  -webkit-overflow-scrolling: touch;
+}
+/*base*/
+.html_box{
+	/*min-height:100%;
+	height: auto !important;
+	height: 100%; /*IE6不识别min-height*/
+  position: relative;
+	//padding-bottom: 1rem;
+	background-color: #efeff3;
+	width: 100%;
+	overflow: hidden;
+  .more{
+    font-size: 14px;
+    color:#808080;
+    display: inline-block;
+    float: right;
+    font-weight: normal;
+     i{
+      font-size: 12px;
+    }
+  }
+}
+
+/*base*/
+
+*{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.clearfix:after{
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+}
+.clearfix{
+  height:1%;
+}
+a,a:link,a:visited,a:hover,a:active{color:#000;text-decoration:none;out-line:none;}  /* 重置链接a标签 */
+// {color:#000;text-decoration:none;out-line:none;}
+// {color:#000;text-decoration:none;out-line:none;}
+// {color:#000;text-decoration:none;out-line:none;}
+// {color:#000;text-decoration:none;out-line:none;}
+
+input[type="submit"],input[type="reset"],input[type="button"],input[type="text"],input[type="number"],
+select,
+button{ -webkit-appearance:none;}
+
+.text-overflow{
+	white-space: nowrap;
+ 	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.centerbox{
+  position: absolute;
+  text-align: center;
+  left:50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.shadow{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999998;
+}
+
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+// .loading_box{
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   display: none;
+//   z-index: 999999;
+// }
+
+.btn{
+  background: #2399EB;
+  color:#fff;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: none;
+}
+.btn:disabled{
+  background: #ccc;
+}
+
+input.transparent,button.transparent{
+  background: transparent;
+  border: 0;
+  outline: none;
+}
